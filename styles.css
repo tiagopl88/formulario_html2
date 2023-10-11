@@ -1,0 +1,36 @@
+body {
+  font-family: "Open-sans", sans-serif;
+  background-color: #fd990b;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+img {
+  max-width: 600px;
+}
+
+form {
+  background-color: antiquewhite;
+  text-align: center;
+  max-width: 600px;
+  border-radius: 20px;
+  padding: 20px;
+  margin: auto;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+h1,
+#top {
+  text-align: center;
+}
+
+.content {
+  background-color: antiquewhite;
+  max-width: 600px;
+  border-radius: 20px;
+  padding: 20px;
+  margin: auto;
+}
