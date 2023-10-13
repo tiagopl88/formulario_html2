@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <title>Form a Story</title>
+  </head>
+  <body>
+    <section id="top">
+      <img src="./img/exploring.png" alt="Form A Story Logo" />
+    </section>
+
+    <section id="main">
+      <h1>Form Completed - Here is your Story!</h1>
+
+      <div class="content">
+        <p>
+          I went up to the arctic where I met a
+          <strong id="animal1">polar bear</strong>. You might think she'd be
+          white, but she had <strong id="color1">purple yellow</strong> hair.
+        </p>
+        <p>
+          I hopped on to a <strong id="element1">glacier</strong> and I rode it
+          out to sea. Snow is great for sledding but it's much too cold for me.
+        </p>
+        <p>
+          I like to go exploring places that I've never been. Take one step, and
+          then another, that's how you begin.
+        </p>
+        <p>
+          I made it to the jungle where a
+          <strong id="animal2">toucan</strong> said "<strong id="greeting1"
+            >Hello!</strong
+          >" He made a hat from branches that he dropped to me below.
+        </p>
+        <p>
+          High above in vines were where the lemurs liked to swing. They jumped
+          around and laughed and that's when they began to sing:
+        </p>
+        <p>
+          "<strong id="song"
+            >We like to go exploring places that we've never been. Take one
+            swing, and then another, that's how we begin.</strong
+          >"
+        </p>
+        <p>
+          I <strong id="how">hiked up</strong> to the mountains where the bobcat
+          had her band. The goats and mountain lions joined the song that they
+          had planned:
+        </p>
+        <p>
+          "<strong id="song2"
+            >We like to go exploring places we have never been.</strong
+          >"
+        </p>
+        <p>
+          Take one step, and then another, that's how we begin. And if you don't
+          believe the words I wrote inside this song, Take one step and then
+          another, then go prove me wrong.
+        </p>
+        <p>
+          Yes, I love this story so much that I've already read it
+          <strong id="quantity">10 </strong> times
+        </p>
+      </div>
+    </section>
+    <script>
+      document.getElementById("animal1").innerHTML =
+        localStorage.getItem("firstAnimal");
+      document.getElementById("animal2").innerHTML =
+        localStorage.getItem("secondAnimal");
+      document.getElementById("color1").innerHTML =
+        localStorage.getItem("colorOne");
+      document.getElementById("element1").innerHTML =
+        localStorage.getItem("elementOne");
+      document.getElementById("greeting1").innerHTML =
+        localStorage.getItem("greeting");
+      document.getElementById("how").innerHTML = localStorage.getItem("howTo");
+      document.getElementById("song").innerHTML =
+        localStorage.getItem("message");
+      document.getElementById("song2").innerHTML =
+        localStorage.getItem("message");
+      document.getElementById("quantity").innerHTML =
+        localStorage.getItem("numberOfTimes");
+    </script>
+  </body>
+</html>
+
+Enviar mensagem para 2-html
