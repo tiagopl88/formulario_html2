@@ -40,6 +40,12 @@ input {
   cursor: pointer;
 }
 
+#button:hover {
+  background-color: #bbf7ff;
+  color: #f44336;
+  transition: all 1s linear;
+}
+
 textarea {
   margin-top: 20px;
   border-radius: 25px;
